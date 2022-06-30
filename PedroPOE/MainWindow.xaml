@@ -1,0 +1,15 @@
+﻿<Window x:Class="PedroPOE.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PedroPOE"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="833.197" Background="CadetBlue">
+    <Grid >
+        <Label FontWeight="Bold" Foreground="White" FontFamily="Baskerville Old Face" Visibility="Visible" FontSize="40" Content="Welcome please select the button below," Margin="26,116,14,190" />
+        <Button x:Name="btnApp" Content="Budget Application" Click="btnApp_Click" Background="WhiteSmoke" FontWeight="SemiBold" Visibility="Visible" HorizontalAlignment="Left" Margin="235,229,0,0" VerticalAlignment="Top" Width="377" Height="83" FontFamily="Sitka Banner" FontSize="36" />
+
+
+    </Grid>
+</Window>
